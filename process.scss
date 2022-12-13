@@ -1,0 +1,535 @@
+body{
+    background-image: url(zdanie_arhitektura_fasad_157276_1920x1080.jpg);
+    background-position-x: center ;
+    margin: 0%;
+    color: white;
+   
+}
+
+@import "displayflex";
+header{
+    background-color: black; 
+    height:  30px; 
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    
+    
+    .headA-1{
+        color: white;
+        flex-grow: 1.3;
+        text-decoration: none;
+        width: auto;
+        align-self: center;
+       
+    }
+}
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+     .container{
+        background-color: rgba(0, 0, 255, 0.075);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding-left: 3%;
+        border-radius: 10px;
+        height: 300px;
+        font-size: 1.4rem;
+    }
+}
+.block-1{
+display: grid;
+grid-template-columns: 15% 75%  10%;
+align-items: center;
+width: 800px;
+justify-content: center;
+
+   .block-1-3{
+    padding-left: 15%;
+   }
+
+   .block-1-2{
+    background-color: black;
+    
+    width: 100%;
+    border-radius: 10px;
+ }
+
+
+}
+
+.process-1{
+   border: 1px solid black;
+   display: block;
+   border-radius: 10px;
+    width: 100%;
+   background-color: black;
+    animation: football  3s linear 0s 1 normal forwards;
+}
+
+@keyframes football {
+    0%{
+     width: 0px;
+     color: black;
+        
+    }
+    100%{
+        width: 68%;
+        background-color: aliceblue;
+        color: white;
+       
+    }
+}
+.process-2{
+    border: 1px solid black;
+    display: block;
+    border-radius: 10px;
+     width: 100%;
+    background-color: black;
+     animation: communication  2s linear 0s 1 normal forwards;
+ }
+ 
+ @keyframes communication {
+     0%{
+      width: 0px;
+      color: black;
+     }
+     100%{
+         width: 80%;
+         background-color: aliceblue;
+        
+     }
+ }
+ .process-3{
+    border: 1px solid black;
+    display: block;
+    border-radius: 10px;
+     width: 100%;
+    background-color: black;
+     animation: Figma  1.9s linear 0s 1 normal forwards;
+ }
+ 
+ @keyframes Figma {
+     0%{
+      width: 0px;
+      color: black; 
+     }
+     100%{
+         width: 15%;
+         background-color: aliceblue;
+        
+     }
+ }
+ .process-4{
+    border: 1px solid black;
+    display: block;
+    border-radius: 10px;
+     width: 100%;
+    background-color: black;
+     animation: English  1.7s linear 0s 1 normal forwards;
+ }
+ 
+ @keyframes English{
+     0%{
+      width: 0px;
+      color: black; 
+     }
+     100%{
+         width: 20%;
+         background-color: aliceblue;
+        
+     }
+ }
+ .process-5{
+    border: 1px solid black;
+    display: block;
+    border-radius: 10px;
+     width: 100%;
+    background-color: black;
+     animation: JS  1.7s linear 0s 1 normal forwards;
+ }
+ 
+ @keyframes JS{
+     0%{
+      width: 0px;
+      color: black; 
+     }
+     100%{
+         width: 5%;
+         background-color: aliceblue;
+       
+     }
+ }
+ 
+ 
+@media ( max-width: 800px) {
+   
+    
+    body{
+        background-image: url(zdanie_arhitektura_fasad_157276_1920x1080.jpg);
+        background-position-x: center ;
+        margin: 0%;
+        color: white;
+       
+    }
+    
+    @import "displayflex";
+    header{
+        background-color: black; 
+        height:  30px; 
+        animation: name duration timing-function delay iteration-count direction fill-mode;
+        
+        
+        .headA-1{
+            color: white;
+            flex-grow: 1.3;
+            text-decoration: none;
+            width: auto;
+            align-self: center;
+           
+        }
+    }
+    .maincontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+         .container{
+            background-color: rgba(0, 0, 255, 0.075);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            padding-left: 3%;
+            border-radius: 10px;
+            height: 300px;
+            font-size: 1.4rem;
+        }
+    }
+    .block-1{
+    display: grid;
+    grid-template-columns: 10% 60%  10%;
+    align-items: center;
+    width: 800px;
+    justify-content: center;
+    
+       .block-1-3{
+        padding-left: 15%;
+       }
+    
+       .block-1-2{
+        background-color: black;
+        
+        width: 100%;
+        border-radius: 10px;
+     }
+    
+    
+    }
+    
+    .process-1{
+       border: 1px solid black;
+       display: block;
+       border-radius: 10px;
+        width: 100%;
+       background-color: black;
+        animation: football  3s linear 0s 1 normal forwards;
+    }
+    
+    @keyframes football {
+        0%{
+         width: 0px;
+         color: black;
+            
+        }
+        100%{
+            width: 68%;
+            background-color: aliceblue;
+            color: white;
+           
+        }
+    }
+    .process-2{
+        border: 1px solid black;
+        display: block;
+        border-radius: 10px;
+         width: 100%;
+        background-color: black;
+         animation: communication  2s linear 0s 1 normal forwards;
+     }
+     
+     @keyframes communication {
+         0%{
+          width: 0px;
+          color: black;
+         }
+         100%{
+             width: 80%;
+             background-color: aliceblue;
+            
+         }
+     }
+     .process-3{
+        border: 1px solid black;
+        display: block;
+        border-radius: 10px;
+         width: 100%;
+        background-color: black;
+         animation: Figma  1.9s linear 0s 1 normal forwards;
+     }
+     
+     @keyframes Figma {
+         0%{
+          width: 0px;
+          color: black; 
+         }
+         100%{
+             width: 15%;
+             background-color: aliceblue;
+            
+         }
+     }
+     .process-4{
+        border: 1px solid black;
+        display: block;
+        border-radius: 10px;
+         width: 100%;
+        background-color: black;
+         animation: English  1.7s linear 0s 1 normal forwards;
+     }
+     
+     @keyframes English{
+         0%{
+          width: 0px;
+          color: black; 
+         }
+         100%{
+             width: 20%;
+             background-color: aliceblue;
+            
+         }
+     }
+     .process-5{
+        border: 1px solid black;
+        display: block;
+        border-radius: 10px;
+         width: 100%;
+        background-color: black;
+         animation: JS  1.7s linear 0s 1 normal forwards;
+     }
+     
+     @keyframes JS{
+         0%{
+          width: 0px;
+          color: black; 
+         }
+         100%{
+             width: 5%;
+             background-color: aliceblue;
+           
+         }
+     }
+
+     
+}
+
+@media ( max-width: 600px) {
+   
+    
+    body{
+        background-image: url(zdanie_arhitektura_fasad_157276_1920x1080.jpg);
+        background-position-x: center ;
+        margin: 0%;
+        color: white;
+       
+    }
+    
+    @import "displayflex";
+    header{
+        background-color: black; 
+        height:  30px; 
+        animation: name duration timing-function delay iteration-count direction fill-mode;
+        
+        
+        .headA-1{
+            color: white;
+            flex-grow: 1.3;
+            text-decoration: none;
+            width: auto;
+            align-self: center;
+           
+        }
+    }
+    .maincontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+         .container{
+            background-color: rgba(0, 0, 255, 0.075);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            padding-left: 3%;
+            border-radius: 10px;
+            height: 300px;
+            font-size: 1.4rem;
+        }
+    }
+    .block-1{
+    display: grid;
+    grid-template-columns: 10% 40%  10%;
+    align-items: center;
+    width: 800px;
+    justify-content: center;
+    
+       .block-1-3{
+        padding-left: 15%;
+       }
+    
+       .block-1-2{
+        background-color: black;
+        
+        width: 100%;
+        border-radius: 10px;
+     }
+    
+    
+    }
+    
+    .process-1{
+       border: 1px solid black;
+       display: block;
+       border-radius: 10px;
+        width: 100%;
+       background-color: black;
+        animation: football  3s linear 0s 1 normal forwards;
+    }
+    
+    @keyframes football {
+        0%{
+         width: 0px;
+         color: black;
+            
+        }
+        100%{
+            width: 68%;
+            background-color: aliceblue;
+            color: white;
+           
+        }
+    }
+    .process-2{
+        border: 1px solid black;
+        display: block;
+        border-radius: 10px;
+         width: 100%;
+        background-color: black;
+         animation: communication  2s linear 0s 1 normal forwards;
+     }
+     
+     @keyframes communication {
+         0%{
+          width: 0px;
+          color: black;
+         }
+         100%{
+             width: 80%;
+             background-color: aliceblue;
+            
+         }
+     }
+     .process-3{
+        border: 1px solid black;
+        display: block;
+        border-radius: 10px;
+         width: 100%;
+        background-color: black;
+         animation: Figma  1.9s linear 0s 1 normal forwards;
+     }
+     
+     @keyframes Figma {
+         0%{
+          width: 0px;
+          color: black; 
+         }
+         100%{
+             width: 15%;
+             background-color: aliceblue;
+            
+         }
+     }
+     .process-4{
+        border: 1px solid black;
+        display: block;
+        border-radius: 10px;
+         width: 100%;
+        background-color: black;
+         animation: English  1.7s linear 0s 1 normal forwards;
+     }
+     
+     @keyframes English{
+         0%{
+          width: 0px;
+          color: black; 
+         }
+         100%{
+             width: 20%;
+             background-color: aliceblue;
+            
+         }
+     }
+     .process-5{
+        border: 1px solid black;
+        display: block;
+        border-radius: 10px;
+         width: 100%;
+        background-color: black;
+         animation: JS  1.7s linear 0s 1 normal forwards;
+     }
+     
+     @keyframes JS{
+         0%{
+          width: 0px;
+          color: black; 
+         }
+         100%{
+             width: 5%;
+             background-color: aliceblue;
+           
+         }
+     }
+
+     
+}
+
